@@ -10,36 +10,31 @@ Description: 'Predicts cell membrane permeability and efflux transport using a m
   MDCK cell-line assays.'
 Deployment:
   - Local
-  - Online
-Source: Local, Online
-Source Type: Internal, Replicated, External
-Task: Annotation, Representation, Sampling
-Subtask: Property calculation or prediction, Activity prediction, Featurization,
-  Projection, Similarity search, Generation
+
+Source: Local
+Source Type: External
+Task: Annotation
+Subtask: Property calculation or prediction
 Input:
   - Compound
 Input Dimension: 1
 Output:
   - Value
-  - Score
-  - Compound
-  - Text
-Output Dimension: 1
-Output Consistency: Fixed, Variable
+
+Output Dimension: 4
+Output Consistency: Fixed
 Interpretation: The output of this template model should be interpreted like 
   this.
 Tag:
   - ADME
   - Permeability
 Biomedical Area:
-  - Biomedical Area 1
-  - Biomedical Area 2
+  - ADMET
 Target Organism:
-  - Target Organism 1
-  - Target Organism 2
-Publication Type: Peer reviewed, Preprint, Other
+  - Homo sapiens
+Publication Type: Peer reviewed
 Publication Year: 2025
 Publication: https://doi.org/10.1021/acsomega.5c04861
-Source Code: https://zenodo.org/records/16948542
+Source Code: https://github.com/chemprop/chemprop
 License: Apache-2.0
-Contributor: GemmaTuron
+Contributor: Marina18
