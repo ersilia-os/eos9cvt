@@ -1,6 +1,6 @@
 Identifier: eos9cvt
 Slug: permeability-efflux-mtl
-Status: In progress
+Status: Ready
 Title: Permeability and Efflux Prediction (GNN-MTL)
 Description: 'Predicts cell membrane permeability and efflux transport using a multitask   graph
   neural network. The model simultaneously predicts four endpoints:   Caco-2 efflux
@@ -37,6 +37,18 @@ Source Code: https://github.com/chemprop/chemprop
 License: Apache-2.0
 Contributor: Marina18
 Incorporation Date: '2026-02-23'
+Last Packaging Date: '2026-03-03'
+Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9cvt.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos9cvt
+Docker Architecture:
+  - AMD64
+  - ARM64
 Model Size: 3.0
 Environment Size: 7878.0
+Image Size: 7757.89
+Computational Performance 1: 40.62
+Computational Performance 2: 26.09
+Computational Performance 3: 28.23
+Computational Performance 4: 76.84
+Computational Performance 5: 290.58
