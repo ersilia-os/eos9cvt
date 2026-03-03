@@ -2,6 +2,7 @@
 
 Predicts cell membrane permeability and efflux transport using a multitask   graph neural network. The model simultaneously predicts four endpoints:   Caco-2 efflux ratio (ER), Caco-2 apparent permeability (P\_app), MDCK ER, and NIH-MDCK ER. Built with Chemprop v2.1 using a message-passing neural   network (MPNN) trained on a harmonized single-laboratory dataset of over   10, 000 compounds from Caco-2 and MDCK cell-line assays.
 
+This model was incorporated on 2026-02-23.
 
 
 ## Information
@@ -37,8 +38,11 @@ Below are the **Output Columns** of the model:
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `External`
+- **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9cvt.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9cvt.zip)
 
 ### Resource Consumption
+- **Model Size (Mb):** `3`
+- **Environment Size (Mb):** `7878`
 
 
 ### References
