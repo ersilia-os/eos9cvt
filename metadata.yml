@@ -10,7 +10,6 @@ Description: 'Predicts cell membrane permeability and efflux transport using a m
   MDCK cell-line assays.'
 Deployment:
   - Local
-
 Source: Local
 Source Type: External
 Task: Annotation
@@ -20,7 +19,6 @@ Input:
 Input Dimension: 1
 Output:
   - Value
-
 Output Dimension: 4
 Output Consistency: Fixed
 Interpretation: The output of this template model should be interpreted like 
@@ -38,3 +36,4 @@ Publication: https://doi.org/10.1021/acsomega.5c04861
 Source Code: https://github.com/chemprop/chemprop
 License: Apache-2.0
 Contributor: Marina18
+Incorporation Date: '2026-02-23'
