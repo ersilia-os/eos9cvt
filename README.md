@@ -56,7 +56,7 @@ Below are the **Output Columns** of the model:
 - **Publication**: [https://doi.org/10.1021/acsomega.5c04861](https://doi.org/10.1021/acsomega.5c04861)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2025`
-- **Ersilia Contributor:** [Marina18](https://github.com/Marina18)
+- **Ersilia Contributor:** [sergivalverde](https://github.com/sergivalverde)
 
 ### License
 This package is licensed under a [GPL-3.0](https://github.com/ersilia-os/ersilia/blob/master/LICENSE) license. The model contained within this package is licensed under a [Apache-2.0](LICENSE) license.
