@@ -21,8 +21,7 @@ Output:
   - Value
 Output Dimension: 4
 Output Consistency: Fixed
-Interpretation: The output of this template model should be interpreted like 
-  this.
+Interpretation: Predicted permeability and efflux ratio across Caco-2 and MDCK assays.
 Tag:
   - ADME
   - Permeability
@@ -33,7 +32,7 @@ Target Organism:
 Publication Type: Peer reviewed
 Publication Year: 2025
 Publication: https://doi.org/10.1021/acsomega.5c04861
-Source Code: https://github.com/chemprop/chemprop
+Source Code: https://zenodo.org/records/16948542
 License: Apache-2.0
 Contributor: sergivalverde
 Incorporation Date: '2026-02-23'
