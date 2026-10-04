@@ -1,6 +1,6 @@
 # Permeability and Efflux Prediction (GNN-MTL)
 
-Predicts cell membrane permeability and efflux transport using a multitask   graph neural network. The model simultaneously predicts four endpoints:   Caco-2 efflux ratio (ER), Caco-2 apparent permeability (P\_app), MDCK ER, and NIH-MDCK ER. Built with Chemprop v2.1 using a message-passing neural   network (MPNN) trained on a harmonized single-laboratory dataset of over   10, 000 compounds from Caco-2 and MDCK cell-line assays.
+Predicts four transport-related endpoints at once: apparent permeability across Caco-2 monolayers together with efflux ratios in Caco-2, MDCK and NIH-MDCK cells. Modelling them jointly through a multitask graph neural network lets the shared biology inform every endpoint rather than fitting each in isolation. Efflux ratios above log10(2) suggest active export is occurring, which is the practical signal that a compound may be a transporter substrate rather than simply impermeable.
 
 This model was incorporated on 2026-02-23.Last packaged on 2026-03-03.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2026-02-23.Last packaged on 2026-03-03.
 ### Output
 - **Output Dimension:** `4`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** The output of this template model should be interpreted like this.
+- **Interpretation:** Predicted log10 Caco-2 permeability and efflux ratios across Caco-2 and MDCK assays.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
