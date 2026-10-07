@@ -2,12 +2,13 @@ Identifier: eos9cvt
 Slug: permeability-efflux-mtl
 Status: Ready
 Title: Permeability and Efflux Prediction (GNN-MTL)
-Description: 'Predicts four transport-related endpoints at once: apparent permeability
-  across Caco-2 monolayers together with efflux ratios in Caco-2, MDCK and NIH-MDCK
-  cells. Modelling them jointly through a multitask graph neural network lets the
-  shared biology inform every endpoint rather than fitting each in isolation. Efflux
-  ratios above log10(2) suggest active export is occurring, which is the practical
-  signal that a compound may be a transporter substrate rather than simply impermeable.'
+Description: Predicts four transport endpoints at once, apparent permeability across
+  Caco-2 monolayers together with efflux ratios in Caco-2, MDCK and NIH-MDCK cells,
+  modelled jointly by a Chemprop message-passing network so shared biology informs
+  every endpoint. Training used a harmonised single-laboratory AstraZeneca set of
+  more than 10,000 compounds, which is proprietary. The checkpoint served here is
+  the authors' public re-release, retrained with Chemprop v2.1 rather than the v1.7
+  used for the published benchmarks. Efflux ratios above log10(2) suggest active export.
 Deployment:
   - Local
 Source: Local
