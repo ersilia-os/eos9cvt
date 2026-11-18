@@ -46,6 +46,7 @@ DockerHub: https://hub.docker.com/r/ersiliaos/eos9cvt
 Docker Architecture:
   - AMD64
   - ARM64
+Apptainer: https://models-sif.s3.eu-north-1.amazonaws.com/eos9cvt_v1.sif
 Model Size: 3.0
 Environment Size: 7878.0
 Image Size: 7757.89
