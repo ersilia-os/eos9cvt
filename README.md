@@ -1,8 +1,9 @@
 # Permeability and Efflux Prediction (GNN-MTL)
 
-Predicts four transport endpoints at once, apparent permeability across Caco-2 monolayers together with efflux ratios in Caco-2, MDCK and NIH-MDCK cells, modelled jointly by a Chemprop message-passing network so shared biology informs every endpoint. Training used a harmonised single-laboratory AstraZeneca set of more than 10,000 compounds, which is proprietary. The checkpoint served here is the authors' public re-release, retrained with Chemprop v2.1 rather than the v1.7 used for the published benchmarks. Efflux ratios above log10(2) suggest active export.
+Predicts four transport endpoints at once, apparent permeability across Caco-2 monolayers together with efflux ratios in Caco-2, MDCK and NIH-MDCK cells, modelled jointly by a Chemprop message-passing network so shared biology informs every endpoint. Training used a harmonised single-laboratory AstraZeneca set of more than 10,000 compounds, which is proprietary. The checkpoint served here is the authors public re-release, retrained with Chemprop v2.1 rather than the v1.7 used for the published benchmarks. Efflux ratios above log10(2) suggest active export.
 
-This model was incorporated on 2026-02-23.Last packaged on 2026-03-03.
+This model was incorporated on 2026-02-23.
+Last packaged on 2026-03-03.
 
 ## Information
 ### Identifiers
@@ -40,6 +41,7 @@ Below are the **Output Columns** of the model:
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos9cvt](https://hub.docker.com/r/ersiliaos/eos9cvt)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9cvt.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos9cvt.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos9cvt_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos9cvt_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `3`
@@ -52,7 +54,7 @@ Below are the **Output Columns** of the model:
 - 10000 inputs: `290.58`
 
 ### References
-- **Source Code**: [https://github.com/chemprop/chemprop](https://github.com/chemprop/chemprop)
+- **Source Code**: [https://zenodo.org/records/16948542](https://zenodo.org/records/16948542)
 - **Publication**: [https://doi.org/10.1021/acsomega.5c04861](https://doi.org/10.1021/acsomega.5c04861)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2025`
